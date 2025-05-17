@@ -29,9 +29,22 @@
 		486ED7BA2D73EBDE00D23F4E /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		48F13BE02D7CD55B00EFCD56 /* Exceptions for "WeatherApp" folder in "WeatherApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 486ED79F2D73EBDC00D23F4E /* WeatherApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		486ED7A22D73EBDC00D23F4E /* WeatherApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				48F13BE02D7CD55B00EFCD56 /* Exceptions for "WeatherApp" folder in "WeatherApp" target */,
+			);
 			path = WeatherApp;
 			sourceTree = "<group>";
 		};
@@ -399,6 +412,10 @@
 				DEVELOPMENT_TEAM = 4EE6D69E6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +445,10 @@
 				DEVELOPMENT_TEAM = 4EE6D69E6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
